@@ -1,0 +1,212 @@
+20
+0
+ENTRANCE
+You just entered into a house.
+Looking around you see that the entrance is a safe and clean well-lighted place.
+
+There looks to be a room to your "east".
+And there is set of stairs to the "north".
+%%
+east:1
+north:2
+%%
+1
+ROOM ON FIRST FLOOR
+Entering the room to the left you find it is just a wash room. 
+Nothing exciting or new to discover here.  You can only go "back" to the entrance of the 
+house from here.
+%%
+back:0
+%%
+2
+SECOND FLOOR ENTRANCE
+After climbing the stairs to the second floor, the house opens up into three areas.
+There is a kitchen with, as you would expect, a table, chairs, refrigerator, 
+and appliances. There is another set of stairs leading up a dark hallway.
+You also see a den and living room. You may go "west" into the kitchen, 
+"east" up the stairway, "north" into the den and living room, or "back" to the
+entrance.
+%%
+east:3
+west:4
+north:5
+back:0
+%%
+3
+3RD FLOOR HALLWAY
+Upon reaching the 3rd floor, you can barely see four doors in the dimly lit area.
+After trying all doors only one appears to be unlocked. You also hear a noise behind
+the same door.  You can "open" the door to the room with the noise or go "back" to the
+second floor.
+%%
+open:9
+back:2
+%%
+4
+KITCHEN
+There is a table surrounded by chairs.  There is no food on the table.  In addition
+there are dishes drying in a drainer next to a fairly clean sink.
+After looking around you see the refrigerator, several cabinets, and a plastic bottle 
+containing a greenish brown liquid.  You can open the "refrigerator", "cabinets", drink from
+the "bottle", or go "back".
+%%
+refrigerator:6
+cabinets:7
+bottle:8
+back:2
+%%
+5
+DEN AND LIVING ROOM
+The den and living room are rather large and separated by a wooden divider.  In the den there
+is a table surrounded by three chairs and a oriental style wooden cabitnet. There is nothing of 
+interest on the table. The living room is bare with exception to a sofa, couch, loveseat, coffee 
+table, and a flat screen TV. Off to one side you see another dark stairwell leading down into the 
+ground level of the house.  You can open the "cabinet" in the den, take the "stairway" to the 
+ground floor, or go "back".
+%%
+cabinet:10
+stairway:11
+back:2
+%%
+6
+REFRIGERATOR
+You open the refrigerator and find that it is completely empty except for one can of Blue Moon beer
+that has been opened.  You can "drink" the remaining contents of the beer or go "back".
+%%
+drink:12
+back:4
+%%
+7
+KITCHEN CABINETS
+After rummaging around through the cabinets you are bitten by several Maricopa harvester ants. Due to
+already being fatigued and famished you faint hitting your head on the counter as you fall to the 
+floor.
+
+You have died.
+(Type "quit" to die.)
+%%
+quit:-1
+%%
+8
+BOTTLE OF GREENISH BROWN LIQUID
+You remove the cap of the bottle and smell tea. You shotgun a few mouthfuls and discover that it is
+unsweetened organic green tea. The caffine makes you feel more alert and your thirst has been quinched.
+You may "drink" more or go "back".
+%%
+drink:8
+back:4
+%%
+9
+NOISY ROOM ON THIRD FLOOR
+You open the door as you walk in, realize the noise was a person snooring, passed out on a queen sized bed.
+The room is furnished but any attempt to inspect the room will likely wake the person.  You can "wake" the 
+sleeping person or go "back" to the third floor hallway.
+%%
+wake:13
+back:3
+%%
+10
+DEN CABINET
+You open the cabinet and see a stack of what appears to be medical and legal paperwork for a person by the 
+name of Amanda Zotter. After reading through some of the paperwork you find that she is a convicted felon, 
+found guilty of a double homicde in which the accused lured people into her house and killed them with booby 
+traps and poisoned food.  She has also been diagnosed with a multiple personality disorder one being 
+violent, the other philanthropic and sacrificing for the needs of others. Inside the cabinet there is also 
+an empty bottle of perscription medicine with Amanda's name on it and a label stating, "must be taken everyday 
+or MPD relapse may occur!".  
+
+You can continue to search the house by going "back" to the den and living room, or play it safe and
+just "exit" the house.
+%%
+back:5
+exit:-1
+%%
+11
+STAIRWAY TO GROUND FLOOR
+Because the stairway is dark you are not able to see the large whole in the stairs causing you to fall and 
+break your leg.  The noise of your fall makes a lady by the name of Amanda Zotter come down to see what 
+happened. She sees that your leg is broken, but before she attempts to help she asks you one question, "Did 
+you read any of the paperwork in the cabinet in the den?" You can answer "yes", "no", or remain "silent".
+%%
+yes:14
+no:15
+silent:16
+%%
+12
+BEER
+After sniffing the can you only smell beer. You gulp down the less than half can of beer not knowing it contained 
+cyanide.  As you slump to the floor and start to lose consciousness you notice marker handwritten on the side of the
+can stating,"Revenge is a dish best served cold, neglect a lady, and i'll neglect your soul:)"
+
+You have died.
+(Type "quit" to die.)
+%%
+quit:-1
+%%
+13
+You awaken the person on the bed, only to startle a lady by the name of Amanda Zotter. After realizing you are an
+intruder in her house she asks you a question, "Did you read any of the paperwork in the cabinet in the den?". You can
+answer with "yes", "no", or remain "silent".
+%%
+yes:17
+no:18
+silent:16
+%%
+14
+YES, GROUND FLOOR
+Amanda responds with, "you should have known better." She points a .45 calibur pistol towards you and pulls the trigger.
+
+You have died.
+(Type "quit" to die.)
+%%
+quit:-1
+%%
+15
+NO, GROUND FLOOR
+Amanda feels compassion for you by putting a splint on your leg and moving you to one of her vacant bedrooms on the third 
+floor.  She decides not call the police or paramedic for fear of you being taken to jail.  She claims she is a registered 
+nurse and that she can take care of you. Consequently because Amanda's not taking her medication she eventually becomes her 
+"other" personality.  She drugs you and you wake up restrained with a straight jacket on.  She has decied she will torture 
+you by cutting parts of your body off until you admit to reading her paperwork in the cabinet.
+
+There is no escaping.  Type "quit" to die.
+%%
+quit:-1
+%%
+16
+PUNISHMENT FOR SILENCE
+She pulls out a knife and says, "well there is only one way to cure silence", and she proceeds to cut you until you answer.
+Unfortunately, due to blood loss you hemorrhage, pass out, and die.
+
+You have died.
+(Type "quit" to die.)
+%%
+quit:-1
+%%
+17
+YES, 3RD FLOOR
+She responds with, "I appreciate your honesty and bravery."  She hands you a check with $1,000,000.00 and offers you a "beer", 
+or shows you the way back to the entrance so that you may "leave".
+%%
+beer:12
+leave:-1
+%%
+18
+NO, 3RD FLOOR
+She responds with, "I appreciate your honesty and bravery."  She hands you a check with $1,000,000.00 and offers you some "tea", 
+or shows you the way back to the entrance so that you may "leave".
+%%
+tea:19
+leave:-1
+%%
+19
+TEA FOR A FINAL REWARD
+You go down to the kitchen with Amanda and she pulls out a glass from one of the cabinets and pours a greenish brown liquid, she 
+says calls organic green tea, into the glass. You drink, feel refreshed and she shows you the door. On your way out she says, "
+next time you are in this area, stop by and I should have some Blue Moon for you to drink."
+
+You won the game! Congratulations.
+(Type "end" to quit)
+%%
+end:-1
+%%
